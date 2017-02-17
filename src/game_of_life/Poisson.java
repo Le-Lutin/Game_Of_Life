@@ -9,7 +9,7 @@ package game_of_life;
  *
  * @author Asus
  */
-public class Poisson {
+public abstract class Poisson {
     String sexe;
 
     public Poisson(String sexe) {
@@ -19,7 +19,7 @@ public class Poisson {
     public String getSexe() {
         return sexe;
     }
-    public void seReprodire(){
+    public void seReproduire(){
     
     }
     

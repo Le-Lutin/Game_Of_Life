@@ -10,6 +10,10 @@ package game_of_life;
  * @author Asus
  */
 public class Requin extends Poisson {
+    
+    public Requin(String sexe) {
+        super(sexe);
+    }
 
     @Override
     public void mourrir() {
@@ -27,8 +31,8 @@ public class Requin extends Poisson {
     }
 
     @Override
-    public void seReprodire() {
-        super.seReprodire(); //To change body of generated methods, choose Tools | Templates.
+    public void seReproduire() {
+        super.seReproduire(); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
@@ -36,9 +40,11 @@ public class Requin extends Poisson {
         return super.getSexe(); //To change body of generated methods, choose Tools | Templates.
     }
     
-    public Requin(String sexe) {
-        super(sexe);
+    public void manger(){
+        
     }
+    
+
     
     
 }

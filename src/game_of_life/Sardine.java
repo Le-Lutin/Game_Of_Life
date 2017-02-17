@@ -31,8 +31,8 @@ public class Sardine extends Poisson {
     }
 
     @Override
-    public void seReprodire() {
-        super.seReprodire(); //To change body of generated methods, choose Tools | Templates.
+    public void seReproduire() {
+        super.seReproduire(); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
